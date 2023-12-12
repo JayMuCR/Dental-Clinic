@@ -1,0 +1,69 @@
+﻿/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Blanco */
+    color: #D4AF37; /* Oro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el texto */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para las etiquetas superiores */
+.grid-view-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el wrapper de los GridViews */
+.grid-view-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Estilos para los GridViews */
+.grid-view {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #D4AF37; /* Borde Oro */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+/* Estilos para las tablas GridView */
+#GridView1,
+#GridView2 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+    #GridView1 th,
+    #GridView2 th,
+    #GridView1 td,
+    #GridView2 td {
+        border: 1px solid #D4AF37; /* Borde Oro */
+        padding: 8px;
+        text-align: left;
+    }
+

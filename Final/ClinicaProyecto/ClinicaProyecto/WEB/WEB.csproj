@@ -1,0 +1,295 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3CA1DDF1-8BBF-4B70-826E-B8E39965E996}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WEB</RootNamespace>
+    <AssemblyName>WEB</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Estilo\Acercade.css" />
+    <Content Include="Estilo\CambioContraseña.css" />
+    <Content Include="Estilo\Actualizacion.css" />
+    <Content Include="Estilo\Factura.css" />
+    <Content Include="Funcionarios\AcercadeFuncionarios.aspx" />
+    <Content Include="Funcionarios\MantenimientoPadres.aspx" />
+    <Content Include="Padres\CambioContraseña.aspx" />
+    <Content Include="Login.css" />
+    <Content Include="Estilo\Princip.css" />
+    <Content Include="Estilo\MantFuncionario.css" />
+    <Content Include="Estilo\MantNiño.css" />
+    <Content Include="Estilo\MantPadre.css" />
+    <Content Include="Estilo\MantServicios.css" />
+    <Content Include="Estilo\Pagar.css" />
+    <Content Include="Padres\Servicios.aspx" />
+    <Content Include="Padres\ActualizacionDatos.aspx" />
+    <Content Include="Funcionarios\Facturar.aspx" />
+    <Content Include="Funcionarios\Pagar.aspx" />
+    <Content Include="Funcionarios\MantenimientoNiño.aspx" />
+    <Content Include="Funcionarios\MantenimientoFuncionarios.aspx" />
+    <Content Include="Funcionarios\MantenimientoServicios.aspx" />
+    <Content Include="Padres\Acercade.aspx" />
+    <Content Include="Padres\PrincipalInicio.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="InicioSesion.aspx" />
+    <Content Include="Estilo\Servicios.css" />
+    <Content Include="Web.config" />
+    <Content Include="Funcionarios\PrincipalInicioFuncionarios.aspx" />
+    <Content Include="Funcionarios\CambioContraseñaFuncionarios.aspx" />
+    <Content Include="Padres\MantenimientoHijo.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Funcionarios\AcercadeFuncionarios.aspx.cs">
+      <DependentUpon>AcercadeFuncionarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Funcionarios\AcercadeFuncionarios.aspx.designer.cs">
+      <DependentUpon>AcercadeFuncionarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionarios\MantenimientoPadres.aspx.cs">
+      <DependentUpon>MantenimientoPadres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Funcionarios\MantenimientoPadres.aspx.designer.cs">
+      <DependentUpon>MantenimientoPadres.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Padres\CambioContraseña.aspx.cs">
+      <DependentUpon>CambioContraseña.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Padres\CambioContraseña.aspx.designer.cs">
+      <DependentUpon>CambioContraseña.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Padres\Servicios.aspx.cs">
+      <DependentUpon>Servicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Padres\Servicios.aspx.designer.cs">
+      <DependentUpon>Servicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Padres\ActualizacionDatos.aspx.cs">
+      <DependentUpon>ActualizacionDatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Padres\ActualizacionDatos.aspx.designer.cs">
+      <DependentUpon>ActualizacionDatos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionarios\Facturar.aspx.cs">
+      <DependentUpon>Facturar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Funcionarios\Facturar.aspx.designer.cs">
+      <DependentUpon>Facturar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionarios\Pagar.aspx.cs">
+      <DependentUpon>Pagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Funcionarios\Pagar.aspx.designer.cs">
+      <DependentUpon>Pagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionarios\MantenimientoNiño.aspx.cs">
+      <DependentUpon>MantenimientoNiño.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Funcionarios\MantenimientoNiño.aspx.designer.cs">
+      <DependentUpon>MantenimientoNiño.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionarios\MantenimientoFuncionarios.aspx.cs">
+      <DependentUpon>MantenimientoFuncionarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Funcionarios\MantenimientoFuncionarios.aspx.designer.cs">
+      <DependentUpon>MantenimientoFuncionarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionarios\MantenimientoServicios.aspx.cs">
+      <DependentUpon>MantenimientoServicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Funcionarios\MantenimientoServicios.aspx.designer.cs">
+      <DependentUpon>MantenimientoServicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Padres\Acercade.aspx.cs">
+      <DependentUpon>Acercade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Padres\Acercade.aspx.designer.cs">
+      <DependentUpon>Acercade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Padres\PrincipalInicio.aspx.cs">
+      <DependentUpon>PrincipalInicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Padres\PrincipalInicio.aspx.designer.cs">
+      <DependentUpon>PrincipalInicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="InicioSesion.aspx.cs">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioSesion.aspx.designer.cs">
+      <DependentUpon>InicioSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Funcionarios\PrincipalInicioFuncionarios.aspx.cs">
+      <DependentUpon>PrincipalInicioFuncionarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Funcionarios\PrincipalInicioFuncionarios.aspx.designer.cs">
+      <DependentUpon>PrincipalInicioFuncionarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionarios\CambioContraseñaFuncionarios.aspx.cs">
+      <DependentUpon>CambioContraseñaFuncionarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Funcionarios\CambioContraseñaFuncionarios.aspx.designer.cs">
+      <DependentUpon>CambioContraseñaFuncionarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Padres\MantenimientoHijo.aspx.cs">
+      <DependentUpon>MantenimientoHijo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Padres\MantenimientoHijo.aspx.designer.cs">
+      <DependentUpon>MantenimientoHijo.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Master.Master" />
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap" />
+    <Content Include="Web1.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Imagenes\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Negocios\Negocios.csproj">
+      <Project>{8469cd87-0e95-469a-9f86-a5834a3d85af}</Project>
+      <Name>Negocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56577</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56577/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

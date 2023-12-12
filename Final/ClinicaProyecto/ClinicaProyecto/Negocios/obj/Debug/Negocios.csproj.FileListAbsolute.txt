@@ -1,0 +1,36 @@
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Negocios\bin\Debug\Negocios.dll
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Negocios\bin\Debug\Negocios.pdb
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Negocios\bin\Debug\Datos.dll
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Negocios\bin\Debug\Datos.pdb
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Negocios\obj\Debug\Negocios.dll
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Negocios\obj\Debug\Negocios.pdb
+C:\Users\spmcr\Downloads\ClinicaProyecto\Negocios\bin\Debug\Negocios.dll
+C:\Users\spmcr\Downloads\ClinicaProyecto\Negocios\bin\Debug\Negocios.pdb
+C:\Users\spmcr\Downloads\ClinicaProyecto\Negocios\bin\Debug\Datos.dll
+C:\Users\spmcr\Downloads\ClinicaProyecto\Negocios\bin\Debug\Datos.pdb
+C:\Users\spmcr\Downloads\ClinicaProyecto\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+C:\Users\spmcr\Downloads\ClinicaProyecto\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\spmcr\Downloads\ClinicaProyecto\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+C:\Users\spmcr\Downloads\ClinicaProyecto\Negocios\obj\Debug\Negocios.dll
+C:\Users\spmcr\Downloads\ClinicaProyecto\Negocios\obj\Debug\Negocios.pdb
+C:\Users\jm902\Downloads\ClinicaProyecto\Negocios\bin\Debug\Negocios.dll
+C:\Users\jm902\Downloads\ClinicaProyecto\Negocios\bin\Debug\Negocios.pdb
+C:\Users\jm902\Downloads\ClinicaProyecto\Negocios\bin\Debug\Datos.dll
+C:\Users\jm902\Downloads\ClinicaProyecto\Negocios\bin\Debug\Datos.pdb
+C:\Users\jm902\Downloads\ClinicaProyecto\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+C:\Users\jm902\Downloads\ClinicaProyecto\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\jm902\Downloads\ClinicaProyecto\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+C:\Users\jm902\Downloads\ClinicaProyecto\Negocios\obj\Debug\Negocios.dll
+C:\Users\jm902\Downloads\ClinicaProyecto\Negocios\obj\Debug\Negocios.pdb
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Negocios\bin\Debug\Negocios.dll
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Negocios\bin\Debug\Negocios.pdb
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Negocios\bin\Debug\Datos.dll
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Negocios\bin\Debug\Datos.pdb
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Negocios\obj\Debug\Negocios.dll
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Negocios\obj\Debug\Negocios.pdb

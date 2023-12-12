@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WEB.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Maestra</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/Estilos/Master.css" rel="stylesheet" />
+</head>
+<body>
+        <form id="form1" runat="server">
+        <header>
+            <nav>
+                
+                <div id="menu">
+          
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                    <asp:Menu ID="Menu2" runat="server" DataSourceID="SiteMapDataSource1">
+                    </asp:Menu>
+                </div>
+
+
+
+
+            </nav>
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                <p>
+                    <a href="Padres/PrincipalInicio.aspx">PrincipalInicioPadres.aspx</a>
+                </p>
+
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+               <p class="title">COLEGIO UNIVERSITARIO DE CARTAGO</p>
+                <p class="subtitle">Tercer Cuatrimestre 2023</p>
+        </footer>
+    </form>
+</body>
+</html>

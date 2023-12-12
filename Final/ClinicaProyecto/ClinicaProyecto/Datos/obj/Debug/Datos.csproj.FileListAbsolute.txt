@@ -1,0 +1,24 @@
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Datos\bin\Debug\Datos.dll
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Datos\bin\Debug\Datos.pdb
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Datos\obj\Debug\Datos.dll
+C:\Users\jm902\OneDrive\Escritorio\Proyecto Final\Clinica Web\Datos\obj\Debug\Datos.pdb
+C:\Users\spmcr\Downloads\ClinicaProyecto\Datos\bin\Debug\Datos.dll
+C:\Users\spmcr\Downloads\ClinicaProyecto\Datos\bin\Debug\Datos.pdb
+C:\Users\spmcr\Downloads\ClinicaProyecto\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\spmcr\Downloads\ClinicaProyecto\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\spmcr\Downloads\ClinicaProyecto\Datos\obj\Debug\Datos.dll
+C:\Users\spmcr\Downloads\ClinicaProyecto\Datos\obj\Debug\Datos.pdb
+C:\Users\jm902\Downloads\ClinicaProyecto\Datos\bin\Debug\Datos.dll
+C:\Users\jm902\Downloads\ClinicaProyecto\Datos\bin\Debug\Datos.pdb
+C:\Users\jm902\Downloads\ClinicaProyecto\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\jm902\Downloads\ClinicaProyecto\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\jm902\Downloads\ClinicaProyecto\Datos\obj\Debug\Datos.dll
+C:\Users\jm902\Downloads\ClinicaProyecto\Datos\obj\Debug\Datos.pdb
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Datos\bin\Debug\Datos.dll
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Datos\bin\Debug\Datos.pdb
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Datos\obj\Debug\Datos.dll
+C:\Users\jm902\Downloads\Final\Final\ClinicaProyecto\ClinicaProyecto\Datos\obj\Debug\Datos.pdb

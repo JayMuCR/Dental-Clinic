@@ -1,0 +1,24 @@
+﻿/* Estilos para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #D4AF37;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para los labels */
+#lblAcercaDe1,
+#lblAcercaDe2,
+#lblAcercaDe3 {
+    display: block; 
+    margin-bottom: 5px; 
+    font-family: Arial, sans-serif;
+    color: #D4AF37;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px; 
+}

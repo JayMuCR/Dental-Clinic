@@ -1,0 +1,107 @@
+﻿/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Blanco */
+    color: #D4AF37; /* Oro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el texto */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilos para el contenedor */
+.container {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para las etiquetas superiores */
+.grid-view-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el wrapper de los GridViews */
+.grid-view-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los GridViews */
+.grid-view {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #D4AF37; /* Borde Oro */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+/* Estilos para las tablas GridView */
+#GridView1,
+#GridView2 {
+    width: calc(50% - 10px); /* Ajusta el ancho para ocupar la mitad del contenedor con un pequeño espacio entre ambos */
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+    #GridView1 th,
+    #GridView2 th,
+    #GridView1 td,
+    #GridView2 td {
+        border: 1px solid #D4AF37; /* Borde Oro */
+        padding: 8px;
+        text-align: center;
+    }
+
+/* Estilos para los botones */
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+    .button-wrapper button {
+        margin: 5px;
+        width: 200px;
+    }
+
+/* Estilos para los botones */
+input[type="submit"],
+input[type="button"],
+button {
+    padding: 10px 20px;
+    border: 2px solid transparent; /* Botón con borde transparente */
+    color: #D4AF37; /* Texto Oro */
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+    input[type="submit"]:hover,
+    input[type="button"]:hover,
+    button:hover {
+        background-color: #D4AF37; /* Oro */
+        color: #fff; /* Texto blanco */
+        border-color: #D4AF37; /* Borde Oro al pasar el cursor */
+    }
