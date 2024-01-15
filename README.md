@@ -1,3 +1,5 @@
+Dental Clinic System
+
 # ProgrammingTwo
 Final project for my Programming II Course. It was developed using C# .net aspx and Microsoft SQL Server was used as DB.
 Fully functional (Dental Clinic) website designed for 2 users with proper authentication. 
